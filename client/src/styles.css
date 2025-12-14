@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #f60101;
+  border-radius: 10px;
+}
+
+form button {
+  background-color: #cc00ff;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.message-entry {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.message-entry span {
+  font-size: 0.8em;
+  color: #666;
+}
